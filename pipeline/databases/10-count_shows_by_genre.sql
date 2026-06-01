@@ -2,7 +2,7 @@
 -- display the number of shows linked to each
 SELECT 
     c.name AS genre,
-    COUNT(DISTINCT a.id) AS number_of_shows
+    COUNT(a.id) AS number_of_shows
 FROM tv_shows a
 INNER JOIN tv_show_genres b ON b.show_id = a.id
 INNER JOIN tv_genres c ON c.id = b.genre_id
