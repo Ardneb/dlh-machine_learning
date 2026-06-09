@@ -10,3 +10,5 @@ Write a function def matrix_transpose(matrix): that returns the transpose of a 2
 Write a function def add_arrays(arr1, arr2): that adds two arrays element-wise
 ## 5. Across The Planes
 Write a function def add_matrices2D(mat1, mat2): that adds two matrices element-wise
+## 6. Howdy Partner
+Write a function def cat_arrays(arr1, arr2): that concatenates two arrays
