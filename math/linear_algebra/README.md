@@ -4,3 +4,5 @@ Complete the source code
 Complete the following source code
 ## 2. Size Me PLease
 Write a function def matrix_shape(matrix): that calculates the shape of a matrix
+## 3. Flip Me Over
+Write a function def matrix_transpose(matrix): that returns the transpose of a 2D matrix.
