@@ -14,3 +14,5 @@ Write a function def add_matrices2D(mat1, mat2): that adds two matrices element-
 Write a function def cat_arrays(arr1, arr2): that concatenates two arrays
 ## 7. Gettin’ Cozy
 Write a function def cat_matrices2D(mat1, mat2, axis=0): that concatenates two matrices along a specific axis
+## 8. Ridin’ Bareback
+Write a function def mat_mul(mat1, mat2): that performs matrix multiplication
