@@ -18,3 +18,5 @@ Write a function def cat_matrices2D(mat1, mat2, axis=0): that concatenates two m
 Write a function def mat_mul(mat1, mat2): that performs matrix multiplication
 ## 9. Let The Butcher Slice It
 Complete the source code
+## 10. I’ll Use My Scale
+Write a function def np_shape(matrix): that calculates the shape of a numpy.ndarray
