@@ -26,3 +26,5 @@ Write a function def np_transpose(matrix): that transposes matrix
 Write a function def np_elementwise(mat1, mat2): that performs element-wise addition, subtraction, multiplication, and division
 ## 13. Cat's Got Your Tongue
 Write a function def np_cat(mat1, mat2, axis=0) that concatenates two matrices along a specific axis
+## 14. Saddle Up
+Write a function def np_matmul(mat1, mat2): that performs matrix multiplication
