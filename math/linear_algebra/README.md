@@ -20,3 +20,5 @@ Write a function def mat_mul(mat1, mat2): that performs matrix multiplication
 Complete the source code
 ## 10. I’ll Use My Scale
 Write a function def np_shape(matrix): that calculates the shape of a numpy.ndarray
+## 11. The Western Exchange
+Write a function def np_transpose(matrix): that transposes matrix
