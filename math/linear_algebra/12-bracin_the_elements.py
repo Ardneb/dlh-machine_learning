@@ -7,8 +7,8 @@ def np_elementwise(mat1, mat2):
     Function performs element-wise addition,
     subtraction, multiplication, and division
     """
-    addition = np.add(mat1, mat2)
-    subtraction = np.subtract(mat1, mat2)
-    multiplication = np.multiply(mat1, mat2)
-    division = np.divide(mat1, mat2)
+    addition = mat1 + mat2
+    subtraction = mat1 - mat2
+    multiplication = mat1 * mat2
+    division = mat1 / mat2
     return (addition, subtraction, multiplication, division)
