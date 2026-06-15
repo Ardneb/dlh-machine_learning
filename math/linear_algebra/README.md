@@ -22,3 +22,5 @@ Complete the source code
 Write a function def np_shape(matrix): that calculates the shape of a numpy.ndarray
 ## 11. The Western Exchange
 Write a function def np_transpose(matrix): that transposes matrix
+## 12. Bracing The Elements
+Write a function def np_elementwise(mat1, mat2): that performs element-wise addition, subtraction, multiplication, and division
