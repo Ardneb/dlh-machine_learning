@@ -9,7 +9,7 @@ def determinant(matrix):
     for row in matrix:
         if not isinstance(row, list):
             raise TypeError("matrix must be a list of lists")
-    if matrix == [[]]:
+    if matrix == [[]] or matrix == []:
         return 1
     elif len(matrix) != len(matrix[0]):
         raise ValueError("matrix must be a non-empty square matrix")
