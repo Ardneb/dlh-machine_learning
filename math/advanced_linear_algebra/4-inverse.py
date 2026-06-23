@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Calculate the adjugate matrix of a matrix"""
+"""Calculate the inverse matrix of a matrix"""
 
 
 def determinant(matrix):
@@ -85,3 +85,28 @@ def adjugate(matrix):
             trans_row.append(cofac_matrix[j][i])
         matrix_trans.append(trans_row)
     return matrix_trans
+
+
+def inverse(matrix):
+    """Function calculates the inverse of a matrix"""
+    if not isinstance(matrix, list):
+        raise TypeError("matrix must be a list of lists")
+    for row in matrix:
+        if not isinstance(row, list):
+            raise TypeError("matrix must be a list of lists")
+    if matrix == [[]] or matrix == []:
+        raise ValueError("matrix must be a non-empty square matrix")
+    if len(matrix) != len(matrix[0]):
+        raise ValueError("matrix must be a non-empty square matrix")
+    det_matrix = determinant(matrix)
+    adj_matrix = adjugate(matrix)
+    inverse_matrix = []
+    if det_matrix == 0:
+        return None
+    else:
+        for i in range(len(adj_matrix)):
+            inv_row = []
+            for j in range(len(adj_matrix)):
+                inv_row.append(adj_matrix[i][j] / det_matrix)
+            inverse_matrix.append(inv_row)
+        return inverse_matrix
