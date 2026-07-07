@@ -12,3 +12,5 @@ Calculate the derivative of the given function
 Calculate the derivative of log
 ## 6. It is difficult to free fools from the chains they revere
 Calculate the derivative of given function
+## 7. Partial truths are often more insidious than total falsehoods
+Calculate the derivative of given function
