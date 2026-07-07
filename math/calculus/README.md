@@ -8,3 +8,5 @@ Calculate the product
 Calculate the product
 ## 4. Hello, derivatives!
 Calculate the derivative of the given function
+## 5. A log on the fire
+Calculate the derivative of log
