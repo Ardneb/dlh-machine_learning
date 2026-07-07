@@ -10,3 +10,5 @@ Calculate the product
 Calculate the derivative of the given function
 ## 5. A log on the fire
 Calculate the derivative of log
+## 6. It is difficult to free fools from the chains they revere
+Calculate the derivative of given function
