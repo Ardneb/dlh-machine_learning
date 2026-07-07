@@ -14,3 +14,5 @@ Calculate the derivative of log
 Calculate the derivative of given function
 ## 7. Partial truths are often more insidious than total falsehoods
 Calculate the derivative of given function
+## 8. Put it all together and what do you get?
+Calculate the derivative of given function
