@@ -22,3 +22,5 @@ Write a function that calculates the sum of i squared
 Write a function that calculates the derivative of a polynomial
 ## 11. Good grooming is integral and impeccable style is a must
 Calculate the integral of a give function
+## 12. We are all an integral part of the web of life
+Calculate the integral of a give function
