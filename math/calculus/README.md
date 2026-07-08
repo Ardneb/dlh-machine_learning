@@ -16,3 +16,7 @@ Calculate the derivative of given function
 Calculate the derivative of given function
 ## 8. Put it all together and what do you get?
 Calculate the derivative of given function
+## 9. Our life is the sum total of all the decisions we make every day, and those decisions are determined by our priorities
+Write a function that calculates the sum of i squared
+## 10. Derive happiness in oneself from a good day's work
+Write a function that calculates the derivative of a polynomial
