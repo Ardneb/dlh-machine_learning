@@ -18,4 +18,6 @@ def poly_integral(poly, C=0):
                 result.append(int(poly[i] * 1 / (i + 1)))
             else:
                 result.append(poly[i] * 1 / (i + 1))
+        while len(result) > 1 and result[-1] == 0:
+            result.pop()
         return result
