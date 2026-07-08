@@ -26,3 +26,5 @@ Calculate the integral of a give function
 Calculate the integral of a give function
 ## 13. Create a definite plan for carrying out your desire and begin at once
 Calculate the definite integral
+## 14. My talents fall within definite limitations
+Calculate the definite integral
