@@ -11,7 +11,7 @@ def poly_integral(poly, C=0):
     elif not isinstance(c, int):
         return None
     else:
-        result = [c]
+        result = [C]
         for i in range(len(poly)):
             result.append(poly[i] * 1 / (i + 1))
         return result
