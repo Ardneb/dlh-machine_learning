@@ -20,3 +20,5 @@ Calculate the derivative of given function
 Write a function that calculates the sum of i squared
 ## 10. Derive happiness in oneself from a good day's work
 Write a function that calculates the derivative of a polynomial
+## 11. Good grooming is integral and impeccable style is a must
+Calculate the integral of a give function
