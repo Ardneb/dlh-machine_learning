@@ -32,3 +32,5 @@ Calculate the definite integral
 Calculate the definite integral
 ## 16. Double whammy
 Calculate the double integral
+## 17. Integrate
+Write a function that calculates the integral of a polynomial
