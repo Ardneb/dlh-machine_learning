@@ -24,3 +24,5 @@ Write a function that calculates the derivative of a polynomial
 Calculate the integral of a give function
 ## 12. We are all an integral part of the web of life
 Calculate the integral of a give function
+## 13. Create a definite plan for carrying out your desire and begin at once
+Calculate the definite integral
