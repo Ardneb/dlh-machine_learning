@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
+"""Testing my plotting skills"""
 import numpy as np
 import matplotlib.pyplot as plt
-"""Testing my plotting skills"""
 
 
 def line():
