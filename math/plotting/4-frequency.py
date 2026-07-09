@@ -16,4 +16,4 @@ def frequency():
     plt.title("Project A")
     plt.xlim(0, 100)
     plt.ylim(0, 30)
-    plt.show()
+    plt.xticks(np.arange(0, 110, 10))
