@@ -65,6 +65,7 @@ def all_in_one():
     ax5.set_title("Project A")
     ax5.set_xlim(0, 100)
     ax5.set_ylim(0,30)
+    ax5.set_xticks(np.arange(0, 110, 10))
 
     plt.suptitle("All in One") 
     plt.tight_layout()
