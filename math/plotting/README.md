@@ -10,3 +10,5 @@ Complete the following source code to plot x ↦ y1 and x ↦ y2 as line graphs
 Complete the following source code to plot a histogram of student scores for a project
 ## 5. All in One
 Complete the following source code to plot all 5 previous graphs in one figure
+## 6. Stacking Bars
+Complete the following source code to plot a stacked bar graph
