@@ -15,7 +15,7 @@ def bars():
     apples = fruit[0, :]
     bananas = fruit[1, :]
     oranges = fruit[2, :]
-    peaches = fruit[2, :]
+    peaches = fruit[3, :]
 
     plt.xticks(np.arange(3), ['Farrah', 'Fred', 'Felicia'])
     plt.bar(x, apples, color='red', width=0.5,
@@ -30,4 +30,5 @@ def bars():
     plt.ylabel('Quantity of Fruit')
     plt.ylim(0, 80)
     plt.title('Number of Fruit per Person')
-    plt.show
+    plt.yticks(np.arange(0, 90, 10))
+    plt.show()
