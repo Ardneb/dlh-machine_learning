@@ -32,3 +32,14 @@ class Poisson:
         for i in range(1, k + 1):
             factorial *= i
         return (self.lambtha ** k * e ** (-self.lambtha)) / factorial
+
+    def cdf(self, k):
+        """Calculate the value of the CDF"""
+        if k < 0:
+            return 0
+        elif not isinstance(k, int):
+            k = int(k)
+        cdf = 0
+        for i in range(0, k + 1):
+            cdf += self.pmf(i)
+        return cdf
