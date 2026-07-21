@@ -2,3 +2,7 @@
 Create a class Poisson that represents a poisson distribution
 ## 1. Poisson PMF
 Calculates the value of the PMF for a given number of "successes"
+## 2. Poisson CDF
+Calculate the value of the CDF for a given number of "successes"
+## 3. Initialize Exponential
+Create a class Exponential that represents an exponential distribution
