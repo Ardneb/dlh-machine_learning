@@ -10,3 +10,5 @@ Create a class Exponential that represents an exponential distribution
 Calculate the value of the PDF for a given time period
 ## 5. Exponential CDF
 Calculate the value of the CDF for a given time period
+## 6. Initialize Normal
+Create a class Normal that represents a normal distribution
