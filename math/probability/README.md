@@ -12,3 +12,5 @@ Calculate the value of the PDF for a given time period
 Calculate the value of the CDF for a given time period
 ## 6. Initialize Normal
 Create a class Normal that represents a normal distribution
+## 7. Normalize Normal
+Calculate the z-score of a given x-value and calculate the x-value of a given z-score
