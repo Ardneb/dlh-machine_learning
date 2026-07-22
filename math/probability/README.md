@@ -16,3 +16,5 @@ Create a class Normal that represents a normal distribution
 Calculate the z-score of a given x-value and calculate the x-value of a given z-score
 ## 8. Normal PDF
 Calculate the value of the PDF for a given x-value
+## 9. Normal CDF
+Calculate the value of the CDF for a given x-value
