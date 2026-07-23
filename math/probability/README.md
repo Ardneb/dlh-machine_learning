@@ -18,3 +18,5 @@ Calculate the z-score of a given x-value and calculate the x-value of a given z-
 Calculate the value of the PDF for a given x-value
 ## 9. Normal CDF
 Calculate the value of the CDF for a given x-value
+## 10. Initialize Binomial
+Create a class Binomial that represents a binomial distribution
