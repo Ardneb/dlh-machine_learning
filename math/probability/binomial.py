@@ -30,3 +30,21 @@ class Binomial:
             p = 1 - (variance / mean)
             self.n = round(mean / p)
             self.p = float(mean / self.n)
+
+    def pmf(self, k):
+        """Calculate the value of the PMF"""
+        if k < 0:
+            return 0
+        elif not isinstance(k, int):
+            k = int(k)
+        n_fac = 1
+        k_fac = 1
+        n_k_fac = 1
+        for i in range(1, self.n + 1):
+            n_fac *= i
+        for i in range(1, k + 1):
+            k_fac *= i
+        for i in range(1, (self.n - k) + 1):
+            n_k_fac *= i
+        return (n_fac / (k_fac * n_k_fac) *
+                self.p ** k * (1 - self.p) ** (self.n - k))

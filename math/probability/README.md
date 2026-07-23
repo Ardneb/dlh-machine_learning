@@ -20,3 +20,5 @@ Calculate the value of the PDF for a given x-value
 Calculate the value of the CDF for a given x-value
 ## 10. Initialize Binomial
 Create a class Binomial that represents a binomial distribution
+## 11. Binomial PMF
+Calculate the value of the PMF for a given number of "successes"
