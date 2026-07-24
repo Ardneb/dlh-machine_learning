@@ -22,3 +22,5 @@ Calculate the value of the CDF for a given x-value
 Create a class Binomial that represents a binomial distribution
 ## 11. Binomial PMF
 Calculate the value of the PMF for a given number of "successes"
+## 12. Binomial CDF
+Calculate the value of the CDF for a given number of "successes"
