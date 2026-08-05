@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Calculate the intersection"""
 import numpy as np
-likelihood = __import__("0-likelihood").likelihood
 
 
 def intersection(x, n, P, Pr):
@@ -27,4 +26,9 @@ def intersection(x, n, P, Pr):
         raise ValueError(f"All values in {Pr} must be in the range [0, 1]")
     elif not np.isclose(np.sum(Pr), 1):
         raise ValueError("Pr must sum to 1")
-    return likelihood(x, n, P) * Pr
+    x_fact = np.math.factorial(x)
+    n_fact = np.math.factorial(n)
+    x_n_fact = np.math.factorial(n - x)
+    likelihood = (n_fact / (x_fact * x_n_fact) *
+                  P ** x * (1 - P) ** (n - x))
+    return likelihood * Pr
