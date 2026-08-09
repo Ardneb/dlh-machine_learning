@@ -25,10 +25,16 @@ class MultiNormal:
         d = self.mean.shape[0]
         if x.shape != (d, 1):
             raise ValueError(f"x must have the shape ({d}, 1)")
-        k = len(self.mean)
-        det_cov = np.linalg.det(self.cov)
-        inv_cov = np.linalg.inv(self.cov)
-        normal_const = 1.0 / np.sqrt((2 * np.pi) ** k * det_cov)
         deviation = x - self.mean
-        expon = -0.5 * (deviation.T @ (inv_cov @ deviation)).item()
-        return float(normal_const * np.exp(expon))
+        pdf = (
+            1
+            / (
+                (2 * np.pi) ** (d / 2)
+                * np.sqrt(np.linalg.det(self.cov))
+            )
+            * np.exp(
+                -0.5
+                * (deviation.T @ np.linalg.inv(self.cov) @ deviation)
+            )
+        )
+        return float(pdf.item())
