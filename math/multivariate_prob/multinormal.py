@@ -3,7 +3,7 @@
 import numpy as np
 
 
-class Multinormal:
+class MultiNormal:
     """Class represents a Multivariat Normal distribution"""
     def __init__(self, data):
         """
