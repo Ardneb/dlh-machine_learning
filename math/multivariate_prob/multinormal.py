@@ -30,5 +30,5 @@ class MultiNormal:
         inv_cov = np.linalg.inv(self.cov)
         normal_const = 1.0 / np.sqrt((2 * np.pi) ** k * det_cov)
         deviation = x - self.mean
-        expon = -0.5 * np.dot(deviation.T, np.dot(inv_cov, deviation)).item()
+        expon = -0.5 * (deviation.T @ (inv_cov @ deviation)).item()
         return float(normal_const * np.exp(expon))
