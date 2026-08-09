@@ -28,3 +28,12 @@ Create the class `MultiNormal` that represents a Multivariate Normal distributio
     - `mean` - a `numpy.ndarray` of shape `(d, 1)` containing the mean of `data`
     - `cov` - a `numpy.ndarray` of shape `(d, d)` containing the covariance matrix `data`
   - You are not allowed to use the function `numpy.cov`
+## 3. PDF
+Update the class `MultiNormal`:
+  - public instance method `def pdf(self, x):` that calculates the PDF at a data point:
+    - `x` is a `numpy.ndarray` of shape `(d, 1)` containing the data point whose PDF should be calculated
+      `d` is the number of dimensions of the `Multinomial` instance
+    - If `x` is not a `numpy.ndarray`, raise a `TypeError` with the message `x must be a numpy.ndarray`
+    - If `x` is not of shape `(d, 1)`, raise a `ValueError` with the message `x must have the shape ({d}, 1)`
+    - Returns the value of the PDF
+    - You are not allowed to use the function `numpy.cov`
