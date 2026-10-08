@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Take a dataframe and perform several operations on it"""
-import pandas as pd
 
 
 def array(df):
