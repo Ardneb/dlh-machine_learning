@@ -18,3 +18,5 @@ Write a function that takes a pd.DataFrame and sorts it by the High price in des
 Write a function def that takes a pd.DataFrame and removes any entries where Close has NaN values
 ### 9. Fill
 Write a function that takes a pd.DataFrame and removes the Weighted_Price column and fills missing columns
+### 10. Indexing
+Write a function that takes a pd.DataFrame and sets the Timestamp column as the index of the dataframe
