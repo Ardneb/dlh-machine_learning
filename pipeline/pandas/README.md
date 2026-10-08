@@ -10,3 +10,5 @@ Write a function def rename(df): that takes a pd.DataFrame as input and performs
 Write a function that takes a pd.DataFrame as input and performs the following
 ### 5. Slice
 Write a function that takes a pd.DataFrame and extracts columns
+### 6. Flip it and Switch it
+Write a function that takes a pd.DataFrame and sorts the data in reverse chronological order
