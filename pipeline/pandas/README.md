@@ -20,3 +20,5 @@ Write a function def that takes a pd.DataFrame and removes any entries where Clo
 Write a function that takes a pd.DataFrame and removes the Weighted_Price column and fills missing columns
 ### 10. Indexing
 Write a function that takes a pd.DataFrame and sets the Timestamp column as the index of the dataframe
+### 11. Concat
+Write a function that takes two pd.DataFrame objects and indexes both dataframes on their Timestamp columns. Includes all timestamps from df2 (bitstamp) up to and including timestamp 1417411920. Concatenates the selected rows from df2 to the top of df1 (coinbase). Adds keys to the concatenated data, labeling the rows from df2 as bitstamp and the rows from df1 as coinbase.
