@@ -7,4 +7,4 @@ def flip_switch(df):
     Sorts the DataFrame in reverse chronological
     order and transposes the transformed DataFrame
     """
-    return df.sortvalues(by='Timestamp', ascending=False).T
+    return df.sort_values(by='Timestamp', ascending=False).T
