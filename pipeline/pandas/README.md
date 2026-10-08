@@ -12,3 +12,7 @@ Write a function that takes a pd.DataFrame as input and performs the following
 Write a function that takes a pd.DataFrame and extracts columns
 ### 6. Flip it and Switch it
 Write a function that takes a pd.DataFrame and sorts the data in reverse chronological order
+### 7. Sort
+Write a function that takes a pd.DataFrame and sorts it by the High price in descending order
+### 8. Prune
+Write a function def that takes a pd.DataFrame and removes any entries where Close has NaN values
