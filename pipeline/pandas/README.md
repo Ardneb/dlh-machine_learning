@@ -16,3 +16,5 @@ Write a function that takes a pd.DataFrame and sorts the data in reverse chronol
 Write a function that takes a pd.DataFrame and sorts it by the High price in descending order
 ### 8. Prune
 Write a function def that takes a pd.DataFrame and removes any entries where Close has NaN values
+### 9. Fill
+Write a function that takes a pd.DataFrame and removes the Weighted_Price column and fills missing columns
